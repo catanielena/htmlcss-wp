@@ -162,7 +162,11 @@ section.hero{
 
 /* footer */
 footer{
-    background-color: peru; /*temp */
-    height: 70px; /*temp */
     margin: 10px 0 20px;
+    color: black;
+    text-align: center;
+}
+
+footer span.heart{
+    color: red;
 }
