@@ -74,18 +74,26 @@ nav a:hover{
 
 /* main */
 /* main > hero */
-section.hero{
+
+.hero-img{
     height: 500px;
     margin: 20px 0;
     border-radius: 10px;
-    background-image: url("../img/banner.jpg");
-    background-size: cover;
-    background-position: center;
     position: relative;
     overflow: hidden;
 }
 
-.hero > .overlay{
+.hero-img img{
+    position: absolute;
+    min-width: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+}
+
+.hero-img > .overlay{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
     top: 0;
@@ -101,6 +109,7 @@ section.hero{
     width: 60%;;
     color: white;
 }
+
 
 /* main > leadership */
 .leadership-title h1{
