@@ -1,0 +1,75 @@
+/* proprietà temporanee: "temp" */
+
+
+
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* common */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+header{
+    height: 100px; /*temp */
+    background-color: lightseagreen; /*temp */
+    margin: 20px 0; 
+}
+
+
+/* main-top */
+.hero{
+    height: 500px; /*temp */
+    background-color: olive; /*temp */
+    margin: 20px 0;
+}
+
+/* main-bottom */
+.leadership-title{
+    height: 100px; /*temp */
+    background-color: palevioletred; /*temp */
+}
+
+.leadership-row{
+    padding: 20px 0;
+    background-color: red; /*temp */
+}
+
+.col-left, .col-center, .col-right{
+    float: left;
+    height: 500px; /*temp */
+    background-color: papayawhip; /*temp */
+}
+
+.col-left, .col-right{
+    width: 25%;
+}
+
+.col-center{
+    width: calc(50% - 40px);
+    margin: 0 20px;
+}
+
+/* footer */
+footer{
+    background-color: peru; /*temp */
+    height: 70px; /*temp */
+    margin: 10px 0 20px;
+}
