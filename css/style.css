@@ -13,6 +13,7 @@
 /* common */
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #939393;
 }
 
 .container{
@@ -26,6 +27,10 @@ body{
     clear: both;
 }
 
+h2{
+    font-weight: 400;
+    font-size: 30px;
+}
 /* header */
 header{
     margin: 20px 0; 
@@ -64,13 +69,36 @@ nav a:hover{
 }
 
 /* main */
-.hero{
-    height: 500px; /*temp */
-    background-color: olive; /*temp */
+/* main > hero */
+section.hero{
+    height: 500px;
     margin: 20px 0;
+    border-radius: 10px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
+.hero-title{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    width: 50%;;
+    color: white;
+}
+
+/* main > leadership */
 .leadership-title{
     height: 100px; /*temp */
     background-color: palevioletred; /*temp */
